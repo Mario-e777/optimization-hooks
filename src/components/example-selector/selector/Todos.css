@@ -1,0 +1,11 @@
+.todo-item {
+  cursor: pointer;
+}
+
+.todo-active {
+  font-weight: bold;
+}
+
+.todos-list {
+  width: fit-content;
+}

@@ -1,0 +1,55 @@
+.example-container {
+  padding: 1.0283rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 24rem;
+  row-gap: 1.234rem;;
+}
+
+.example {
+  display: grid;
+  row-gap: 1.234rem;
+  background-color: white;
+  padding: 1.0283rem;
+  border-radius: 0.82266rem;
+  max-width: 45rem;
+  box-shadow:
+    0.3px 0.5px 0.7px rgba(0, 0, 0, 0.0234),
+    1.2px 2.4px 3px -0.3px rgba(0, 0, 0, 0.0234),
+    2.1px 4.3px 5.4px -0.6px rgba(0, 0, 0, 0.0234),
+    3.2px 6.5px 8.2px -0.8px rgba(0, 0, 0, 0.0234),
+    4.7px 9.4px 11.8px -1.1px rgba(0, 0, 0, 0.0234),
+    6.8px 13.6px 17.1px -1.4px rgba(0, 0, 0, 0.0234),
+    9.6px 19.3px 24.3px -1.7px rgba(0, 0, 0, 0.0234),
+    13.5px 27px 34px -1.9px rgba(0, 0, 0, 0.0234),
+    18.5px 37.1px 46.6px -2.2px rgba(0, 0, 0, 0.0234),
+    25px 50px 62.9px -2.5px rgba(0, 0, 0, 0.0234);
+}
+
+.example-title {
+  text-align: center;
+}
+
+.example-results {
+  padding: 1.0283rem 0 0 0;
+  border-top: 1px solid rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.0283rem;
+}
+
+.example-facts-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  max-width: 90rem;
+  line-height: 1.4rem;
+}
+
+.controls-container {
+  display: flex;
+  column-gap: 1.0283rem;
+}
